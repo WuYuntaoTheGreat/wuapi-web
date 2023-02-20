@@ -9,6 +9,7 @@ import Search from '@/views/Search.vue'
 import VersionList from '@/views/VersionList.vue'
 import App from '@/App.vue'
 import Help from '@/views/Help.vue'
+import Error from '@/views/Error.vue'
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -66,6 +67,11 @@ const router = createRouter({
           component: Help,
         },
       ]
+    },
+    {
+      name: 'error',
+      path: '/error',
+      component: Error,
     }
   ]
 })

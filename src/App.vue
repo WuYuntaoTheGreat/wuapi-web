@@ -16,7 +16,6 @@ const versionList = ref<{[key: string]: string}>({})
 
 provide(versionListKey, versionList)
 
-
 onMounted(() => {
   fetchVersion()
 })
@@ -32,6 +31,10 @@ function fetchVersion () {
       versionList.value = data.versions
       console.log(`App.fetchVersion/${data.current}`)
       router.push(`/v/${data.current}/api`)
+    })
+    .catch((error)=>{
+      console.log(`Error fetching list.json, ${error}`) 
+      router.push(`/error`)
     })
 }
 
