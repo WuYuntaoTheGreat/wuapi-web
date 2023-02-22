@@ -1,0 +1,5 @@
+src/
+tsconfig*
+
+tsconfig.*
+vite.config.ts

@@ -1,6 +1,6 @@
 {
   "name": "@wuapi/web",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -13,7 +13,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
+  "devDependencies": {
     "@popperjs/core": "^2.11.5",
     "@types/lodash": "^4.14.182",
     "@wuapi/essential": "^1.0.2",
@@ -25,9 +25,7 @@
     "vue-autocomplete-input-tag": "^2.0.1",
     "vue-router": "^4.1.2",
     "vue3-markdown-it": "^1.0.10",
-    "vue3-simple-typeahead": "^1.0.9"
-  },
-  "devDependencies": {
+    "vue3-simple-typeahead": "^1.0.9",
     "@types/bootstrap": "^5.2.0",
     "@types/node": "^16.11.45",
     "@types/splitpanes": "^2.2.1",
