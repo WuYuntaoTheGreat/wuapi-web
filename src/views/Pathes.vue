@@ -1,4 +1,4 @@
-compNullable<template lang="pug">
+<template lang="pug">
 table.m-2
   thead
     tr
