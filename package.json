@@ -1,6 +1,6 @@
 {
   "name": "@wuapi/web",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "@popperjs/core": "^2.11.5",
     "@types/lodash": "^4.14.182",
-    "@wuapi/essential": "^1.0.2",
+    "@wuapi/essential": "^1.0.3",
     "bootstrap": "^5.2.0",
     "lodash": "^4.17.21",
     "material-icons": "^1.11.7",
@@ -27,7 +27,7 @@
     "vue3-markdown-it": "^1.0.10",
     "vue3-simple-typeahead": "^1.0.9",
     "@types/bootstrap": "^5.2.0",
-    "@types/node": "^16.11.45",
+    "@types/node": "^18.15.3",
     "@types/splitpanes": "^2.2.1",
     "@vitejs/plugin-vue": "^3.0.1",
     "@vue/tsconfig": "^0.1.3",
