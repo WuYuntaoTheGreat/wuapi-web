@@ -1,6 +1,6 @@
 {
   "name": "@wuapi/web",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -21,7 +21,7 @@
     "@types/splitpanes": "^2.2.1",
     "@vitejs/plugin-vue": "^3.0.1",
     "@vue/tsconfig": "^0.1.3",
-    "@wuapi/essential": "^1.0.6",
+    "@wuapi/essential": "^1.0.7",
     "bootstrap": "^5.2.0",
     "lodash": "^4.17.21",
     "material-icons": "^1.11.7",
